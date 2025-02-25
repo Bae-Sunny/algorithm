@@ -379,7 +379,8 @@ season, probabilities, ... = analyzer.analyze(image_path)
 - 이미지 업로드 컴포넌트
 - Highcharts를 활용한 결과 시각화
     
-    ![스크린샷 2025-02-26 오전 12.58.34.png](attachment:d1201ad4-fd15-4354-9814-5e908747a42b:스크린샷_2025-02-26_오전_12.58.34.png)
+    <img width="702" alt="스크린샷 2025-02-26 오전 2 35 36" src="https://github.com/user-attachments/assets/c086d0ba-8d9e-44cf-bce7-7b9a4f40bc22" />
+
     
 
 ---
