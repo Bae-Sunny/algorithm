@@ -1,0 +1,50 @@
+<div id="content" class="container mt-5">
+    <h2 class="text-center">coffeeClassification Form</h2>
+    <div class="row justify-content-center">
+        <form method="post" action="coffeePredict">
+<!--            {% csrf_token %}-->
+            <fieldset>
+                <legend>커피 원두 등급 예측</legend>
+                <div class="form-group">
+                    <label for="Aroma">아로마</label>
+                    <input type="number" class="form-control" name="Aroma" id="Aroma" step="0.01" min="0" max="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="Flavor">향</label>
+                    <input type="number" class="form-control" name="Flavor" id="Flavor" step="0.01" min="0" max="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="Aftertaste">끝맛</label>
+                    <input type="number" class="form-control" name="Aftertaste" id="Aftertaste" step="0.01" min="0" max="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="Acidity">산미</label>
+                    <input type="number" class="form-control" name="Acidity" id="Acidity" step="0.01" min="0" max="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="Body">바디감</label>
+                    <input type="number" class="form-control" name="Body" id="Body" step="0.01" min="0" max="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="Balance">밸런스</label>
+                    <input type="number" class="form-control" name="Balance" id="Balance" step="0.01" min="0" max="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="Uniformity">균일성</label>
+                    <input type="number" class="form-control" name="Uniformity" id="Uniformity" step="0.01" min="0" max="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="Moisture">수분함량</label>
+                    <input type="number" class="form-control" name="Moisture" id="Moisture" step="0.01" min="0" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="Altitude_Mean_Meters">재배고도</label>
+                    <input type="number" class="form-control" name="Altitude_Mean_Meters" id="Altitude_Mean_Meters" step="0.01" min="0" max="3000" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary">원두 등급 예측</button>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
