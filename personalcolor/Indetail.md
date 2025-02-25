@@ -247,7 +247,7 @@ def visualize_results(image, face, skin_color, eye_color, season, face_mask):
 
 ### 확률 그래프 시각화
 
-<img width="889" alt="project5" src="https://github.com/user-attachments/assets/6eccbaf2-eb6e-4b98-93bf-c29050faa321" />
+<img width="702" alt="스크린샷 2025-02-26 오전 2 34 10" src="https://github.com/user-attachments/assets/6a74864c-78d1-4a46-b431-770609a99cab" />
 
 
 ```python
