@@ -1,4 +1,5 @@
 ## ☕ **커피 원두 등급 예측 서비스**
+![Beige Yellow Elegant Portofolio](https://github.com/user-attachments/assets/3189aa2b-0742-47b6-9d5b-f26abe4d2379)
 
 ### 📌 프로젝트 목표 및 개요
 
